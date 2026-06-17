@@ -1,0 +1,20 @@
+{
+  "model": "Prophet (Meta)",
+  "dataset": "Superstore Sales (2020\u20132023, 1,461 daily records)",
+  "train_days": 1371,
+  "test_days": 90,
+  "metrics": {
+    "MAE": 107.23,
+    "RMSE": 165.29,
+    "MAPE": 6.16,
+    "actuals_within_95pct_CI": 71.1
+  },
+  "business_insights": {
+    "best_sales_day": "Wednesday",
+    "peak_month": "July",
+    "top_category": "Office Supplies",
+    "top_category_share": 40.3,
+    "projected_90d_revenue": 146969.0,
+    "projected_daily_avg": 1633.0
+  }
+}
